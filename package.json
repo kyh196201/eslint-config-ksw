@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-ksw",
+  "version": "1.0.0",
+  "description": "eslint and prettier config for Javascript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["eslint", "eslintConfig"],
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "@babel/core": "^7.23.5",
+    "@babel/eslint-parser": "^7.23.3",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.1.0"
+  },
+  "author": "SEUNGWOO KIM",
+  "license": "MIT"
+}
